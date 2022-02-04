@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finance App</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <img src="./assets/logo.svg" alt="Logotype Dev.Finances">
+        <img src="./assets/images/logo.svg" alt="Logotype Dev.Finances">
     </header>
 
     <main class="container">
@@ -28,7 +28,7 @@
             <div class="card">
                 <h3>
                     <span>Income</span>
-                    <img src="./assets/income.svg" alt="svg image">
+                    <img src="./assets/images/income.svg" alt="svg image">
                 </h3>
                 <p>$ 5.000.00</p>
             </div>
@@ -36,7 +36,7 @@
             <div class="card">
                 <h3>
                     <span>Expense</span>
-                    <img src="./assets/expense.svg" alt="svg image">
+                    <img src="./assets/images/expense.svg" alt="svg image">
                 </h3>
                 <p>$ 2.000.00</p>
             </div>
@@ -44,7 +44,7 @@
             <div class="card total">
                 <h3>
                     <span>Total</span>
-                    <img src="./assets/total.svg" alt="svg image">
+                    <img src="./assets/images/total.svg" alt="svg image">
                 </h3>
                 <p>$ 3.000.00</p>
             </div>
@@ -68,34 +68,34 @@
                 </thead>
 
                 <tbody>
-                    <tr>
+                    <!-- <tr>
                         <td class="description">Internet</td>
                         <td class="expense">- $ 100.00</td>
                         <td class="date">31/01/2022</td>
-                        <td><img src="./assets/minus.svg" alt="Remove transaction"></td>
-                    </tr>
-                    <tr>
+                        <td><img src="./assets/images/minus.svg" alt="Remove transaction"></td>
+                    </tr> -->
+                    <!-- <tr>
                         <td class="description">Website creation</td>
                         <td class="earning">$ 2.000.00</td>
                         <td class="date">12/01/2022</td>
-                        <td><img src="./assets/minus.svg" alt="Remove transaction"></td>
+                        <td><img src="./assets/images/minus.svg" alt="Remove transaction"></td>
                     </tr>
                     <tr>
                         <td class="description">Water</td>
                         <td class="expense">- $ 500.00</td>
                         <td class="date">30/01/2022</td>
-                        <td><img src="./assets/minus.svg" alt="Remove transaction"></td>
-                    </tr>
+                        <td><img src="./assets/images/minus.svg" alt="Remove transaction"></td>
+                    </tr> -->
                 </tbody>
             </table>
         </section>
     </main>
 
-    <div class="modal-overlay active">
+    <div class="modal-overlay">
         <div class="modal">
             <div id="form">
                 <h2>New Transaction</h2>
-                <form action="#" method="post">
+                <form id="transaction-form" action="#" method="post">
                     <div class="input-group">
                         <label for="description" class="screen-reader-only">Description</label>
                         <input type="text" id="description" name="description" placeholder="Description">
@@ -124,6 +124,7 @@
     <footer>
         <p>finances mini app</p>
     </footer>
-</body>
 
+<script src="./app.js"></script>
+</body>
 </html>

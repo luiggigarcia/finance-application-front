@@ -100,7 +100,7 @@ header {
 }
 
 #balance {
-    margin-top: -8rem;
+    margin-top: -7rem;
 }
 
 #balance h2 {
@@ -178,6 +178,10 @@ table tbody td {
     padding: 1rem 2rem;
 }
 
+table tbody tr td:last-child {
+    cursor: pointer;
+}
+
 table .description {
     color: var(--dark-blue);
 }
@@ -201,6 +205,7 @@ table .earning {
     justify-content: center;
     opacity: 0;
     visibility: hidden;
+    z-index: 999;
 }
 
 .modal-overlay.active {
@@ -212,6 +217,7 @@ table .earning {
     background: #F0F2f5;
     padding: 2.4rem;
     position: relative;
+    z-index: 1;
 }
 
 #form {
