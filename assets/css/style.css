@@ -235,6 +235,10 @@ input {
     width: 100%;
 }
 
+.fill-in::placeholder {
+    color: var(--red);
+}
+
 .input-group {
     margin-top: 0.8rem;
 }

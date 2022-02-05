@@ -98,8 +98,7 @@ const formatCurrency = value => {
 }
 
 const formatAmount = value => {
-    value = Number(value.replace(/\.\,/g, "")) * 100;
-    return value;
+    return Math.round(value * 100);
 };
 
 const formatDate = date => {
@@ -150,7 +149,8 @@ const form = {
                 modal.toggle;
 
             } catch (error) {
-                alert(error.message);
+                const inputs = document.querySelectorAll("input");
+                inputs.forEach(input => input.classList.add("fill-in"));
             }
         });
     }
