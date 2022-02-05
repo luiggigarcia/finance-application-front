@@ -1,8 +1,6 @@
 # Finance Frontend Application
 
-<img src="./assets/images/mobile.png" alt="Mobile Image">
-<img src="./assets/images/desktop.png" alt="Desktop Image">
-
+<img src="https://github.com/luiggigarcia/finance-application-front/blob/main/assets/images/desktop.PNG" alt="Desktop Image">
 
 The project is a frontend application for finances.
 
