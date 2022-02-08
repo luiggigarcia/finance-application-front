@@ -5,7 +5,7 @@
 The project is a frontend application for finances.
 
 ## Functionality
-- Add a new transaction could be an expense or and income.
+- Add a new transaction could be an expense or an income.
 - Remove a transaction
 - Have the total of expenses and incomes.
 
