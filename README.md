@@ -4,10 +4,10 @@
 
 The project is a frontend application for finances.
 
-## Functionalities
-- DOM javascript manipulation.
-- Semantic HTML, pure CSS styles.
-- form validation
+## Functionality
+- Add a new transaction could be an expense or and income.
+- Remove a transaction
+- Have the total of expenses and incomes.
 
 
 ## Technologies:
